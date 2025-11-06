@@ -51,6 +51,11 @@ provider "helm" {
       args        = ["eks", "get-token", "--cluster-name", module.retail_app_eks.cluster_name]
     }
   }
+  
+  # Helm provider configuration
+  experiments {
+    manifest = true
+  }
 }
 
 provider "kubernetes" {
