@@ -1,6 +1,8 @@
 # AWS Containers Retail Sample - Orders Service
 
-<!-- GitOps Test: Multi-service deploy test - Orders By Vishal -->
+<!-- GitOps Test: Multi-service deploy test - Orders -->
+
+<!-- Testing with GitOps Action -->
 
 | Language | Persistence |
 | -------- | ----------- |

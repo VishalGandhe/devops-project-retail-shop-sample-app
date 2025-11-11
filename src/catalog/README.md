@@ -1,6 +1,8 @@
 # AWS Containers Retail Sample - Catalog Service
 
-<!-- GitOps Test: Final workflow validation By Vishal-->
+<!-- GitOps Test: Final workflow validation -->
+
+<!-- Testing with GitOps Action -->
 
 | Language | Persistence |
 | -------- | ----------- |
