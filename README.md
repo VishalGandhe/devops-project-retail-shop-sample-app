@@ -305,7 +305,7 @@ kubectl get svc -n ingress-nginx
 
 Use the EXTERNAL-IP of the ingress-nginx-controller service to access the application.
 
-<img width="2912" height="1756" alt="image" src="https://github.com/user-attachments/assets/095077d6-d3cb-48f6-b021-e977db5fb242" />
+<img width="1892" height="985" alt="Image" src="https://github.com/user-attachments/assets/4b6e8e6a-c62d-4b89-be1a-ea1f0493e0ad" />
 
 ### Step 9: Argo CD Automated Deployment:
 
