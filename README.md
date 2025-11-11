@@ -284,7 +284,7 @@ GitHub Actions will automatically build and push the updated Docker images to Am
 
 
 
-<img width="2868" height="1130" alt="image" src="https://github.com/user-attachments/assets/f29c3416-d630-4463-81d2-aaa8af9a02da" />
+<img width="1892" height="985" alt="Image" src="https://github.com/user-attachments/assets/4b6e8e6a-c62d-4b89-be1a-ea1f0493e0ad" />
 
 
 ### Verify Deployment
