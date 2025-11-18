@@ -1,4 +1,4 @@
-# Retail Store Sample App - GitOps with Amazon EKS Auto Mode
+# Demo Retail Store App - GitOps with Amazon EKS Auto Mode
  
 ![Banner](./docs/images/banner.png)
  
