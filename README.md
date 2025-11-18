@@ -30,7 +30,6 @@ This is a sample application designed to illustrate various concepts related to 
 - [CI/CD Pipeline](#cicd-pipeline)
 - [Monitoring and Observability](#monitoring-and-observability)
 - [Cleanup](https://github.com/LondheShubham153/retail-store-sample-app/blob/main/README.md#step-12-cleanup)
-- [Troubleshooting](#troubleshooting)
 
 ## Overview
 
