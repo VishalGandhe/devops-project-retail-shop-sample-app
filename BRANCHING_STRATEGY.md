@@ -334,6 +334,16 @@ kubectl apply -f argocd/applications/ -n argocd  # Apply individual apps
 - ✅ Enterprise environments
 - ✅ Automated testing pipelines
 - ✅ Continuous deployment workflows
+
+### **Security Considerations**
+- 🔒 Use IAM roles with minimal permissions
+- 🔒 Rotate AWS access keys regularly
+- 🔒 Enable ECR image scanning
+- 🔒 Use branch protection rules
+- 🔒 Review automated commits
+
+---
+  
 ---
 
 This branching strategy provides a robust foundation for both stable production deployments and rapid development cycles while maintaining clear separation of concerns and automated quality gates.
