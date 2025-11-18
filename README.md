@@ -1,4 +1,4 @@
-# Retail Store Sample App - GitOps with Amazon EKS Auto Mode
+# Demo Retail Store App - GitOps with Amazon EKS Auto Mode
  
 ![Banner](./docs/images/banner.png)
  
@@ -29,8 +29,7 @@ This is a sample application designed to illustrate various concepts related to 
 - [Infrastructure Components](#infrastructure-components)
 - [CI/CD Pipeline](#cicd-pipeline)
 - [Monitoring and Observability](#monitoring-and-observability)
-- [Cleanup](https://github.com/LondheShubham153/retail-store-sample-app/blob/main/README.md#step-12-cleanup)
-- [Troubleshooting](#troubleshooting)
+
 
 ## Overview
 
@@ -371,49 +370,3 @@ terraform destroy --auto-approve
 
 > [!NOTE]
 > ECR Repositories you need to Delete it from AWS Console Manually.
-
-
-
-## Troubleshooting
-
-### Common Issues
-
-#### **Image Pull Errors**
-```
-Error: Failed to pull image "123456789012.dkr.ecr.us-west-2.amazonaws.com/retail-store-ui:abc1234"
-```
-**Solutions**:
-1. Ensure you're using the correct branch for your deployment strategy
-2. For Production branch: Check GitHub Actions completed successfully
-3. For Public Application branch: Verify you're using public ECR images
-4. Check AWS credentials and ECR permissions
-
-#### **GitHub Actions Not Triggering**
-**Solutions**:
-1. Ensure changes are in `src/` directory
-2. Verify you're on the `production` branch (gitops)
-3. Check GitHub Actions is enabled in repository settings
-4. Review [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md) for detailed setup
-
-### Getting Help
-
-- **Basic deployment issues**: Check this README
-- **Advanced GitOps issues**: See [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md)
-- **Infrastructure issues**: Review Terraform logs
-- **Application issues**: Check ArgoCD UI and kubectl logs
-
-## License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
-
-
----
-
-<div align="center">
-
-**⭐ Star this repository if you found it helpful!**
-
-**🔄 For advanced GitOps workflows, see [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md)**
-
-</div>
-
